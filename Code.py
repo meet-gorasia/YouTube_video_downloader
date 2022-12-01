@@ -50,9 +50,7 @@ def Download():
 
 	getVideo.streams.filter(file_extension="mp4").get_highest_resolution().download(download_Folder)
 
-	messagebox.showinfo("SUCCESSFULLY",
-						"DOWNLOADED AND SAVED IN\n"
-						+ download_Folder)
+	messagebox.showinfo("SUCCESSFULLY","DOWNLOADED AND SAVED IN\n"+ download_Folder)
 
 
 
